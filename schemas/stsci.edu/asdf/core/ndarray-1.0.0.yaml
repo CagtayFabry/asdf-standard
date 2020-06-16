@@ -188,7 +188,8 @@ definitions:
     anyOf:
       - type: string
         enum: [int8, uint8, int16, uint16, int32, uint32, int64, uint64,
-               float32, float64, complex64, complex128, bool8]
+               float32, float64, complex64, complex128, bool8,
+               "timedelta64[ms]", "datetime64[ms]", "timedelta64[ns]", "datetime64[ns]"]
       - type: array
         items:
           - type: string
